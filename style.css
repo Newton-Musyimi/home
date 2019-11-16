@@ -1,11 +1,8 @@
-#404 {
-    background-color: antiquewhite;
-    padding-right: 50px;
-    padding-left: 50px;
-}
 #404home {
     border: 2px;
-    border-color: darkgray;
+    border-color: black;
     background-color: bisque;
-    orientation: center;
+}
+img {
+    image-orientation: 45deg;
 }
