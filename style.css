@@ -6,3 +6,9 @@ div#404home {
 img#404 {
     image-orientation: 45deg;
 }
+html{
+    background-color: black;
+}
+p{
+    font-color: white;
+}
