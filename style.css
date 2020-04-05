@@ -1,0 +1,14 @@
+div#404home {
+    border: 2px;
+    border-color: black;
+    background-color: bisque;
+}
+img#404 {
+    image-orientation: 45deg;
+}
+html{
+    background-color: black;
+}
+p{
+    font-color: white;
+}
