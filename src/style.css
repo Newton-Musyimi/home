@@ -40,3 +40,11 @@ img#404 {
 #repositories:hover{
     background-color:hsl(2, 5%, 74%);
 }
+#text-area{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#heading{
+    margin-left: 12%;
+
+}
