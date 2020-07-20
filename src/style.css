@@ -7,7 +7,10 @@ img#404 {
     image-orientation: 45deg;
 }
 #profile{
-    
+    max-width: 12%;
+    height: auto;
+    margin-left: 12%;
+    padding-top: 1%;
 }
 #intro{
     position: relative;
