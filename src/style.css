@@ -1,7 +1,3 @@
-#intro{
-    position: relative;
-    object-position: right;
-}
 #repositories{
     background-color:aqua;
     font: bold 11px Arial;
@@ -47,12 +43,19 @@
     position: relative;
 }
 
-#heading>h1,#heading>.nav-bar{
-    margin-left: 12%;
+div#top-side{
+    position: absolute;
+    top:0%;
+    left:13%;
 
 }
-
+div.nav-bar{
+    position: relative;
+    left:initial;
+    top: 10%;
+}
 div.nav-bar>a{
+    position: static;
     background-color:black;
     font: bold 11px Arial;
     text-decoration: none;
@@ -64,4 +67,9 @@ div.nav-bar>a{
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
     font-size: 130%;
+}
+
+h1{
+    position: relative;
+    top: 0%;
 }
