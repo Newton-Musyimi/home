@@ -43,19 +43,14 @@
     position: relative;
 }
 
-div#top-side{
+div.top-side{
     position: absolute;
     top:0%;
     left:13%;
 
 }
-div.nav-bar{
-    position: relative;
-    left:initial;
-    top: 10%;
-}
-div.nav-bar>a{
-    position: static;
+
+div.nav-bar a{
     background-color:black;
     font: bold 11px Arial;
     text-decoration: none;
@@ -66,10 +61,10 @@ div.nav-bar>a{
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
-    font-size: 130%;
+    font-size: 100%;
 }
 
-h1{
+.top-side h1{
     position: relative;
-    top: 0%;
+    bottom: 10%;
 }
