@@ -9,6 +9,22 @@ img#404 {
 html{
     background-color: black;
 }
-p{
-    font: white;
+header, p{
+    color: white;
+}
+.game_button{
+    background-color:black;
+    font: bold 11px Arial;
+    text-decoration: none;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.game_button:hover{
+    background-color:hsl(2, 5%, 74%);
+    color: black;
 }
