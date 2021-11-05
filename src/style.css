@@ -37,20 +37,20 @@
 }
 
 #profile{
-    max-width: 12%;
+    width: 7%;
     height: auto;
     padding-top: 1%;
     position: relative;
 }
 
-div.top-side{
+.top-side{
     position: absolute;
     top:0%;
     left:13%;
 
 }
 
-div.nav-bar a{
+.nav-bar a{
     background-color:black;
     font: bold 11px Arial;
     text-decoration: none;
@@ -67,4 +67,11 @@ div.nav-bar a{
 .top-side h1{
     position: relative;
     bottom: 10%;
+}
+
+#heading{
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+
 }
