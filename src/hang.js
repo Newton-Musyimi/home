@@ -6,7 +6,7 @@ if (prom) {
     //alert(word);
     //console.log(word);
     //document.writeln(word);
-    document.getElementById("word").innerHTML = word;
+    document.getElementById('word').innerHTML = "Hello";
     var remove = Math.floor(word.length/2);
     console.log("to remove is " + remove)
     var pluck = [];
