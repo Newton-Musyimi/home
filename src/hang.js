@@ -4,7 +4,9 @@ let prom = true;
 if (prom) {
     var word = words[Math.floor(Math.random() * 4)];
     //alert(word);
-    console.log(word);
+    //console.log(word);
+    //document.writeln(word);
+    document.getElementById("word").innerHTML = word;
     var remove = Math.floor(word.length/2);
     console.log("to remove is " + remove)
     var pluck = [];
